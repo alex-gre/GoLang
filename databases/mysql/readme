@@ -1,0 +1,2 @@
+go mod init mysqlapp
+go get github.com/go-sql-driver/mysql
