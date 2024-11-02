@@ -1,0 +1,27 @@
+sudo dnf update
+sudo dnf install golang
+or 
+sudo yum install golang
+
+sudo dnf install nano -y
+sudo nano ~/.bashrc
+Scroll to the end of the file and add the following line:
+
+export PATH=$PATH:/usr/local/go/bin
+Save the file by pressing Ctrl+X, type Y, and then hit the Enter key.
+
+go version
+To see all the available options we can use:
+go --help
+
+nano hello.go
+Add the following lines
+
+package main 
+import "fmt" 
+func main () {
+fmt.Printf( "hello world\n" )
+}
+Save the file using Ctrl+X, Y, and hit the Enter key.
+
+go build hello.go
