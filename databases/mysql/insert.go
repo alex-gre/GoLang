@@ -75,7 +75,9 @@ func main() {
 	}
 	database = db
 	defer db.Close()
+	//host:8181
 	http.HandleFunc("/", IndexHandler)
+	//host:8181/create
 	http.HandleFunc("/create", CreateHandler)
 
 	fmt.Println("Server is listening...")
