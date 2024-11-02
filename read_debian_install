@@ -4,6 +4,8 @@ main commands:
 go env           :  выводит переменные окружения в go
 go run main.go   :  запуск скрипта без сборки
 go build main.go :  сборка скрипта
+go help          :  help
+go help mod      : help по mod
 ...
 
 Утилиты GoLang
