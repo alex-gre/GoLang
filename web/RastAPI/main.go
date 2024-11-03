@@ -1,10 +1,10 @@
-//
+// go mod init myRastAPI
 // REST API на Go
 //
 
 package main
 
-//go get github.com/gorilla/mux
+// go get github.com/gorilla/mux
 
 import (
 	"encoding/json"
