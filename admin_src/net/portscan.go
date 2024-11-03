@@ -35,7 +35,7 @@ func scanner(port int) {
 func main() {
 	// Укажите диапазон портов, которые хотите сканировать
 	startPort := 1
-	endPort := 10000
+	endPort := 65535
 	//or max value 65535
 
 	var wg sync.WaitGroup
